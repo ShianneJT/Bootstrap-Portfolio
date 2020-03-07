@@ -11,8 +11,7 @@
     background-image: url(../images/sakura_bg.png);
   }
 
-  /* Header and navbar */
-
+/* Header and navbar */
   header {
     border-bottom: 2px solid #F4B49C;
     background-color: #fef2ec;
@@ -66,13 +65,12 @@
     height: 78px;
   }
 
-  /* Main page content */
-
+/* Main page content */
   .container {
     background-color: #fef2ec;   
-    width: 960px;    
-    margin: auto;
-    padding-bottom: 20px;
+    width: 960px;
+    margin-bottom: 80px;
+    padding-bottom: 15px;
   }
 
   h2 {
@@ -84,7 +82,7 @@
     border: 2px solid #F4B49C;
   }
  
-  /* Specific to index.html */
+/* Specific to index.html */
   #bio-image {
     width: 350px;
     height: 350px;
@@ -92,17 +90,41 @@
     margin-right: 15px;
   }
 
-  /* Specific to contact.html */
+/* Specific to contact.html */
   .btn-primary {
     background-color: #555555;
     border: 0px;
   }
 
+/* Specific to portfolio.html */
+  .portfolio-item {
+    width: 300px;
+    height: 225px;
+    margin-right: 20px;
+    position: relative;
+  }
 
+  .w-100 {
+    height: 15px;
+  }
 
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
-  /* Footer */
+  .label {
+    background-color: #F4B49C;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    position: absolute;  
+    bottom: 10%;    
+  }
 
+/* Footer */
   .footer {
     position: absolute;
     bottom: 0;
